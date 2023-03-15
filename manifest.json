@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "Shorten Link One",
+    "version": "1.0",
+    "description": "Automatically shortens URLs using TinyURL",
+    "icons": {
+      "16": "icon-16.png",
+      "48": "icon-48.png",
+      "128": "icon-128.png"
+    },
+    "permissions": ["tabs", "activeTab", "notifications"],
+    "browser_action": {
+      "default_icon": "icon-48.png",
+      "default_title": "Shorten Link One",
+      "default_popup": "popup.html"
+    }
+  }
